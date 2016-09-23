@@ -1,0 +1,8 @@
+package: github.com/21stio/geoip-lab
+import:
+- package: github.com/oschwald/geoip2-golang
+  version: ^0.1.0
+- package: github.com/davecgh/go-spew
+  version: ^1.0.0
+  subpackages:
+  - spew
